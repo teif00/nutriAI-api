@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 
 class EnhancedMealPlanner:
     
-    def __init__(self, model_name: str = "t5-large", device: str = "auto"):
+    def __init__(self, model_name: str = "google/flan-t5-base", device: str = "auto"):
         self.device = self._setup_device(device)
         self.model_name = model_name
         self.tokenizer = None
@@ -330,3 +330,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
