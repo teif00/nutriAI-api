@@ -8,4 +8,5 @@ sentencepiece
 datasets
 pyarrow
 scikit-learn
+gunicorn
 
