@@ -1,0 +1,11 @@
+flask
+flask-cors
+torch
+numpy
+psutil
+transformers
+sentencepiece
+datasets
+pyarrow
+scikit-learn
+
